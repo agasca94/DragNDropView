@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DragNDropView_Example' do
+  pod 'DragNDropView', :path => '../'
+
+  target 'DragNDropView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
