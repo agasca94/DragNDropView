@@ -1,0 +1,6 @@
+framework module DragNDropView {
+  umbrella header "DragNDropView-umbrella.h"
+
+  export *
+  module * { export * }
+}

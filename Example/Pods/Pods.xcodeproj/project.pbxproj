@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BBD8DD7B11A99EE1AC4EF181C629F56 /* Pods-DragNDropView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 443E9837A94058F88C198586624631AF /* Pods-DragNDropView_Tests-dummy.m */; };
+		263339A9E8F7BB524C65B0EE58039D49 /* DragNDropView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 612369701131E9B3ECAFEC71266E79C3 /* DragNDropView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		411C7E6FBB555AA63DFE058F710E401E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4C46D1B557FB7C2E23C2EC2B39210837 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6FCE2CCBE746DFAE298873B06C282455 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AB18CA5674C9347FEAE4A507183DEF9F /* DragNDropView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B143B5CA6F8DBBFC91E88E5A9DFDBCE /* DragNDropView-dummy.m */; };
+		B22BC876F863A43AD9342DCD56697967 /* Pods-DragNDropView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8B3B67C5AECF8EE742A64798923B3C /* Pods-DragNDropView_Example-dummy.m */; };
+		C36DE1BFF5385FDD65CD245518FB2F60 /* Pods-DragNDropView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAEC981027B7094154D9799B80760D99 /* Pods-DragNDropView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6550997787AC9E19A87C6297688995C /* Pods-DragNDropView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF75BEBC00C93D15D259F95A5528A3C /* Pods-DragNDropView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA2AE82CA0F869C16AC66E0A83A3352B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A55E6DA10F75BFD6A95812E4E04908 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D37CA7F16DEE65889A746F184E7D9686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99A8BD2EABB361F5CF6B6DE1B845EEAD;
+			remoteInfo = DragNDropView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06AC1BE2BC99DAB183C6222A9F6A7717 /* Pods-DragNDropView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DragNDropView_Example.modulemap"; sourceTree = "<group>"; };
+		1C8B3B67C5AECF8EE742A64798923B3C /* Pods-DragNDropView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DragNDropView_Example-dummy.m"; sourceTree = "<group>"; };
+		1E95D57FE5FAC333187CB911FAB8EC6B /* Pods-DragNDropView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DragNDropView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2081CA70F9A3A8263E3AC8B08FCAEBDF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A61DFB286948C5CF0BBAF3AE2AD98CA /* Pods-DragNDropView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DragNDropView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2B143B5CA6F8DBBFC91E88E5A9DFDBCE /* DragNDropView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DragNDropView-dummy.m"; sourceTree = "<group>"; };
+		304EC8020F1432366C1771A4473F9E18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E43BF61316BCD4095BB2534899A1E68 /* Pods-DragNDropView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DragNDropView_Tests.modulemap"; sourceTree = "<group>"; };
+		4067963A09B160285B6C2041B94D4A6D /* Pods_DragNDropView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DragNDropView_Tests.framework; path = "Pods-DragNDropView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F7C61C73775D91FE771A47D8B2869B /* Pods_DragNDropView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DragNDropView_Example.framework; path = "Pods-DragNDropView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		443E9837A94058F88C198586624631AF /* Pods-DragNDropView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DragNDropView_Tests-dummy.m"; sourceTree = "<group>"; };
+		46DB2449FC8E41F4FFDDB1683398D545 /* Pods-DragNDropView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DragNDropView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		48936B887DEEB953EF58D7C1E15458F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EF0D2F57E7D6EF5F3487FAAFF8D69C9 /* Pods-DragNDropView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DragNDropView_Tests-resources.sh"; sourceTree = "<group>"; };
+		612369701131E9B3ECAFEC71266E79C3 /* DragNDropView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragNDropView-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		661B3E1615FDB4C0BF70401DE85CDDB0 /* DragNDropView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DragNDropView.xcconfig; sourceTree = "<group>"; };
+		741BEFB2E53B1E6B5E9FC0B5B81D4640 /* Pods-DragNDropView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DragNDropView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		74A452619A22EBCE8E0795B7C3117A0A /* DragNDropView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DragNDropView.modulemap; sourceTree = "<group>"; };
+		8908FE21D4EC601407B79E35F42EFA44 /* DragNDropView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragNDropView-prefix.pch"; sourceTree = "<group>"; };
+		8D3E506CC8DA526344A61B9F683644BC /* Pods-DragNDropView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DragNDropView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D99262296841FC2073DB719332F0D8C /* Pods-DragNDropView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DragNDropView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D23897A6FF6B5DD03EFD79A6291D6AA /* Pods-DragNDropView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DragNDropView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BFDD93037788174442B5F3725EF84D12 /* Pods-DragNDropView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DragNDropView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA949086E02EA576FD714936042CF7BB /* Pods-DragNDropView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DragNDropView_Example-resources.sh"; sourceTree = "<group>"; };
+		CAEC981027B7094154D9799B80760D99 /* Pods-DragNDropView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DragNDropView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CC86FB866D00333FBB71C4B4D4D52A0E /* DragNDropView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DragNDropView.framework; path = DragNDropView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D2331B676EB3EE12F1C3AFF89AB67B /* Pods-DragNDropView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DragNDropView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F4FD793316E0C229191301F6FC7247A2 /* Pods-DragNDropView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DragNDropView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F6A55E6DA10F75BFD6A95812E4E04908 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		FBF75BEBC00C93D15D259F95A5528A3C /* Pods-DragNDropView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DragNDropView_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F8E78467C51C06B405758BAA9C32469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C46D1B557FB7C2E23C2EC2B39210837 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1885DFDE65ACADC0900C14C1B0B850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411C7E6FBB555AA63DFE058F710E401E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E2A835F26B096C85EED2F72EB1E627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FCE2CCBE746DFAE298873B06C282455 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		269E0F80117B8AE6C8258628F616F4DE /* DragNDropView */ = {
+			isa = PBXGroup;
+			children = (
+				E1D6FA50C0510B94B43FEFACF2215BA1 /* Classes */,
+			);
+			name = DragNDropView;
+			path = DragNDropView;
+			sourceTree = "<group>";
+		};
+		4CDCC89C68EEE24562E2C23616B55C8F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74A452619A22EBCE8E0795B7C3117A0A /* DragNDropView.modulemap */,
+				661B3E1615FDB4C0BF70401DE85CDDB0 /* DragNDropView.xcconfig */,
+				2B143B5CA6F8DBBFC91E88E5A9DFDBCE /* DragNDropView-dummy.m */,
+				8908FE21D4EC601407B79E35F42EFA44 /* DragNDropView-prefix.pch */,
+				612369701131E9B3ECAFEC71266E79C3 /* DragNDropView-umbrella.h */,
+				304EC8020F1432366C1771A4473F9E18 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DragNDropView";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A49E3643826F15806AF3F87409A7505D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C05896CC375A253CE5B6D33EDC7A49C4 /* Products */,
+				AC0D16E7E462EBD0405B1FC01C134BA0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DE7CF4965EB2D90645C7740F33A5123 /* Pods-DragNDropView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				48936B887DEEB953EF58D7C1E15458F1 /* Info.plist */,
+				3E43BF61316BCD4095BB2534899A1E68 /* Pods-DragNDropView_Tests.modulemap */,
+				BFDD93037788174442B5F3725EF84D12 /* Pods-DragNDropView_Tests-acknowledgements.markdown */,
+				8D3E506CC8DA526344A61B9F683644BC /* Pods-DragNDropView_Tests-acknowledgements.plist */,
+				443E9837A94058F88C198586624631AF /* Pods-DragNDropView_Tests-dummy.m */,
+				F4FD793316E0C229191301F6FC7247A2 /* Pods-DragNDropView_Tests-frameworks.sh */,
+				5EF0D2F57E7D6EF5F3487FAAFF8D69C9 /* Pods-DragNDropView_Tests-resources.sh */,
+				CAEC981027B7094154D9799B80760D99 /* Pods-DragNDropView_Tests-umbrella.h */,
+				1E95D57FE5FAC333187CB911FAB8EC6B /* Pods-DragNDropView_Tests.debug.xcconfig */,
+				2A61DFB286948C5CF0BBAF3AE2AD98CA /* Pods-DragNDropView_Tests.release.xcconfig */,
+			);
+			name = "Pods-DragNDropView_Tests";
+			path = "Target Support Files/Pods-DragNDropView_Tests";
+			sourceTree = "<group>";
+		};
+		990F46489D5EFF112B20041B8A21F13D /* DragNDropView */ = {
+			isa = PBXGroup;
+			children = (
+				269E0F80117B8AE6C8258628F616F4DE /* DragNDropView */,
+				4CDCC89C68EEE24562E2C23616B55C8F /* Support Files */,
+			);
+			name = DragNDropView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A49E3643826F15806AF3F87409A7505D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				990F46489D5EFF112B20041B8A21F13D /* DragNDropView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AC0D16E7E462EBD0405B1FC01C134BA0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5C4118CECBFF3EBAD6A4528A64303DD /* Pods-DragNDropView_Example */,
+				7DE7CF4965EB2D90645C7740F33A5123 /* Pods-DragNDropView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C05896CC375A253CE5B6D33EDC7A49C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC86FB866D00333FBB71C4B4D4D52A0E /* DragNDropView.framework */,
+				42F7C61C73775D91FE771A47D8B2869B /* Pods_DragNDropView_Example.framework */,
+				4067963A09B160285B6C2041B94D4A6D /* Pods_DragNDropView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E1D6FA50C0510B94B43FEFACF2215BA1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F6A55E6DA10F75BFD6A95812E4E04908 /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E5C4118CECBFF3EBAD6A4528A64303DD /* Pods-DragNDropView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2081CA70F9A3A8263E3AC8B08FCAEBDF /* Info.plist */,
+				06AC1BE2BC99DAB183C6222A9F6A7717 /* Pods-DragNDropView_Example.modulemap */,
+				741BEFB2E53B1E6B5E9FC0B5B81D4640 /* Pods-DragNDropView_Example-acknowledgements.markdown */,
+				9D23897A6FF6B5DD03EFD79A6291D6AA /* Pods-DragNDropView_Example-acknowledgements.plist */,
+				1C8B3B67C5AECF8EE742A64798923B3C /* Pods-DragNDropView_Example-dummy.m */,
+				46DB2449FC8E41F4FFDDB1683398D545 /* Pods-DragNDropView_Example-frameworks.sh */,
+				CA949086E02EA576FD714936042CF7BB /* Pods-DragNDropView_Example-resources.sh */,
+				FBF75BEBC00C93D15D259F95A5528A3C /* Pods-DragNDropView_Example-umbrella.h */,
+				8D99262296841FC2073DB719332F0D8C /* Pods-DragNDropView_Example.debug.xcconfig */,
+				D0D2331B676EB3EE12F1C3AFF89AB67B /* Pods-DragNDropView_Example.release.xcconfig */,
+			);
+			name = "Pods-DragNDropView_Example";
+			path = "Target Support Files/Pods-DragNDropView_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		72DEFD48970EC66B1768790FE91D23CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6550997787AC9E19A87C6297688995C /* Pods-DragNDropView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B171D325E76B164615DE59F4DD69B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36DE1BFF5385FDD65CD245518FB2F60 /* Pods-DragNDropView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5A8DA8BBAEBBE04B131806E60B51C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263339A9E8F7BB524C65B0EE58039D49 /* DragNDropView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0173E5063635C7CD25CB52F51C8CBF8F /* Pods-DragNDropView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944758A2C14805254E445C0411466E1F /* Build configuration list for PBXNativeTarget "Pods-DragNDropView_Tests" */;
+			buildPhases = (
+				0C327FC4A861DAC7F38BB3081C430D1B /* Sources */,
+				0F8E78467C51C06B405758BAA9C32469 /* Frameworks */,
+				D7B171D325E76B164615DE59F4DD69B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DragNDropView_Tests";
+			productName = "Pods-DragNDropView_Tests";
+			productReference = 4067963A09B160285B6C2041B94D4A6D /* Pods_DragNDropView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D1E9B40770CC2CA34E5E4DB5E5A261E /* Pods-DragNDropView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1549FC19022B947D8F8BE25F34A6977 /* Build configuration list for PBXNativeTarget "Pods-DragNDropView_Example" */;
+			buildPhases = (
+				6AF25706423A1B0B7DA366DFC91C95A1 /* Sources */,
+				DA1885DFDE65ACADC0900C14C1B0B850 /* Frameworks */,
+				72DEFD48970EC66B1768790FE91D23CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AD842C0AFF891D2AEA9723E8FA98595 /* PBXTargetDependency */,
+			);
+			name = "Pods-DragNDropView_Example";
+			productName = "Pods-DragNDropView_Example";
+			productReference = 42F7C61C73775D91FE771A47D8B2869B /* Pods_DragNDropView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99A8BD2EABB361F5CF6B6DE1B845EEAD /* DragNDropView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD40B0C49B3F1FA4635709CBF02596B /* Build configuration list for PBXNativeTarget "DragNDropView" */;
+			buildPhases = (
+				9914D0BD783AB6190188A85C3730C773 /* Sources */,
+				E6E2A835F26B096C85EED2F72EB1E627 /* Frameworks */,
+				ED5A8DA8BBAEBBE04B131806E60B51C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragNDropView;
+			productName = DragNDropView;
+			productReference = CC86FB866D00333FBB71C4B4D4D52A0E /* DragNDropView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C05896CC375A253CE5B6D33EDC7A49C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99A8BD2EABB361F5CF6B6DE1B845EEAD /* DragNDropView */,
+				7D1E9B40770CC2CA34E5E4DB5E5A261E /* Pods-DragNDropView_Example */,
+				0173E5063635C7CD25CB52F51C8CBF8F /* Pods-DragNDropView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C327FC4A861DAC7F38BB3081C430D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BBD8DD7B11A99EE1AC4EF181C629F56 /* Pods-DragNDropView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF25706423A1B0B7DA366DFC91C95A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22BC876F863A43AD9342DCD56697967 /* Pods-DragNDropView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9914D0BD783AB6190188A85C3730C773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB18CA5674C9347FEAE4A507183DEF9F /* DragNDropView-dummy.m in Sources */,
+				DA2AE82CA0F869C16AC66E0A83A3352B /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AD842C0AFF891D2AEA9723E8FA98595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DragNDropView;
+			target = 99A8BD2EABB361F5CF6B6DE1B845EEAD /* DragNDropView */;
+			targetProxy = D37CA7F16DEE65889A746F184E7D9686 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		300480A102A20E0EDCA44B56318749F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661B3E1615FDB4C0BF70401DE85CDDB0 /* DragNDropView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DragNDropView/DragNDropView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DragNDropView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DragNDropView/DragNDropView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DragNDropView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3BF0857BF7E5DE404EABEBC4B2C8C584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A61DFB286948C5CF0BBAF3AE2AD98CA /* Pods-DragNDropView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DragNDropView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DragNDropView_Tests/Pods-DragNDropView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DragNDropView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56D45D466CB2AEF845B2943297614907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D99262296841FC2073DB719332F0D8C /* Pods-DragNDropView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DragNDropView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DragNDropView_Example/Pods-DragNDropView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DragNDropView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8922C34C7E0840DE95D66BF710F00ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661B3E1615FDB4C0BF70401DE85CDDB0 /* DragNDropView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DragNDropView/DragNDropView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DragNDropView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DragNDropView/DragNDropView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DragNDropView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93639E211F8820E1DB0C0C0AC1C360B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0D2331B676EB3EE12F1C3AFF89AB67B /* Pods-DragNDropView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DragNDropView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DragNDropView_Example/Pods-DragNDropView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DragNDropView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE3E1735307FE7E418D529FC56227EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E95D57FE5FAC333187CB911FAB8EC6B /* Pods-DragNDropView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DragNDropView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DragNDropView_Tests/Pods-DragNDropView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DragNDropView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD40B0C49B3F1FA4635709CBF02596B /* Build configuration list for PBXNativeTarget "DragNDropView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300480A102A20E0EDCA44B56318749F1 /* Debug */,
+				8922C34C7E0840DE95D66BF710F00ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		944758A2C14805254E445C0411466E1F /* Build configuration list for PBXNativeTarget "Pods-DragNDropView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3E1735307FE7E418D529FC56227EE4 /* Debug */,
+				3BF0857BF7E5DE404EABEBC4B2C8C584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1549FC19022B947D8F8BE25F34A6977 /* Build configuration list for PBXNativeTarget "Pods-DragNDropView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D45D466CB2AEF845B2943297614907 /* Debug */,
+				93639E211F8820E1DB0C0C0AC1C360B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

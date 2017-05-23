@@ -1,0 +1,16 @@
+PODS:
+  - DragNDropView (0.1.0)
+
+DEPENDENCIES:
+  - DragNDropView (from `../`)
+
+EXTERNAL SOURCES:
+  DragNDropView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DragNDropView: 6dbced5300e586ffa494a4f10de3cd1157fd891b
+
+PODFILE CHECKSUM: 89109c0b8651ffef24752b01ca33fd370aa6ab6f
+
+COCOAPODS: 1.2.1
