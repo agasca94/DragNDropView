@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DragNDropView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DragNDropView.'
+  s.summary          = 'An image view with support for child views with rotating, resizing and moving capabilities.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+An image view with support for child views with rotating, resizing and moving capabilities.
+The image can also modify its brightness level and support drawings with the finger.
                        DESC
 
   s.homepage         = 'https://github.com/ArturoGasca/DragNDropView'
